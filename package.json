@@ -1,5 +1,5 @@
 {
-  "name": "core-ui",
+  "name": "barcode-ui",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",

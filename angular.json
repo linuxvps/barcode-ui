@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "core-ui": {
+    "barcode-ui": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -56,15 +56,15 @@
         "serve": {
           "builder": "@angular/build:dev-server",
           "options": {
-            "buildTarget": "core-ui:build:development",
+            "buildTarget": "barcode-ui:build:development",
             "proxyConfig": "proxy.conf.json"
           },
           "configurations": {
             "production": {
-              "buildTarget": "core-ui:build:production"
+              "buildTarget": "barcode-ui:build:production"
             },
             "development": {
-              "buildTarget": "core-ui:build:development"
+              "buildTarget": "barcode-ui:build:development"
             }
           },
           "defaultConfiguration": "development"
